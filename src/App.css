@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden; 
+   -ms-backface-visibility: hidden; 
+   backface-visibility: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+
+.app{
+  width:100vw;
+  max-width: 1500px;
+  padding: 1rem;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x:hidden ;
+  background-color: aliceblue;
+
+}
+.app .main{
+  margin-top: 6rem;
+  padding: 1rem;
+  flex:1;
+  border: 1px groove #ccc;
+
+
+}
+.header{
+   
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background-color: aliceblue;
+  box-shadow: .3px .5px 1px #333;
+}
+.header nav a{
+display: inline-block;
+margin-left: 1rem;
+text-transform: capitalize;
+}
+.avr{
+  width:4rem;
+  height:4rem;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  background-color: #ccc;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 1200;
+ filter: brightness(100%);
+}
+
+
+
+/* /* @media  (max-width:600px) {
+  .header nav{
+    display: none;
+    
+  }
+  .main{
+    grid-template-columns: 1fr !important;
+  }
+
+  Button{
+    display: block !important;
+  }
+  .header Button{
+    display: block;
+  }
+   */
+
+
