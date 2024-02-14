@@ -40,12 +40,12 @@ const Footer = () => {
 
   <Row justify={"center"}>
      <Col span={24} sm={{span:12}} lg={{span:6}} style={{fontSize:"5rem"}}>
-      <a href='https://facebook.com/fisshatsyon.haileamlak'><FacebookFilled/>
+      <a href='#'><FacebookFilled/>
       </a></Col>
      <Col span={24} sm={{span:12}} lg={{span:6}} style={{fontSize:"5rem"}}>
-      <a href='mailto:fhaileamlak@gmail.com'><MailTwoTone/></a></Col>
+      <a href='mailto:fhaileamlak@gmail.com'><MailTwoTone/>fhaileamlak@gmail.com</a></Col>
      <Col span={24} sm={{span:12}} lg={{span:6}} style={{fontSize:"5rem"}}>
-      <a><LinkedinFilled/></a></Col>
+      <a href="#"><LinkedinFilled/></a></Col>
      <Col span={24} sm={{span:12}} lg={{span:6}} style={{fontSize:"5rem"}}>
       <a href='https://github.com/antGit21'><GithubFilled/></a>
       </Col>
